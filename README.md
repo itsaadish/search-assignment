@@ -69,22 +69,4 @@ clothing-search/
 - **Database**: SQLite (as per configuration)
 - **Package Management**: npm, pip
 
----
-
-## 🤝 Contributing
-We welcome contributions! Feel free to submit issues or pull requests to improve the project.
-
----
-
-## 📜 License
-This project is licensed under the **MIT License**.
-
----
-
-## 🎯 Future Improvements
-- ✅ Implement authentication & user profiles
-- ✅ Add an AI-powered recommendation system
-- ✅ Enhance mobile responsiveness
-
-Let's build something amazing together! 🚀
 
