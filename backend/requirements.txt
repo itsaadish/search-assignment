@@ -1,0 +1,14 @@
+django
+djangorestframework
+celery
+redis
+openai==1.65.1
+selenium
+webdriver-manager
+python-dotenv
+python-dotenv==1.0.0
+django-cors-headers
+channels
+channels_redis
+daphne
+# django-rest-framework-simplejwt  # Optional for JWT

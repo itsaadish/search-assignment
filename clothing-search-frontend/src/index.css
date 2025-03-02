@@ -1,0 +1,222 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Blue background only for the Register page */
+.register-page {
+  background-color: #007bff; /* Blue background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+}
+
+.auth-form {
+  max-width: 400px;
+  width: 100%;
+  padding: 2rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: white; /* White background for the form */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow for better visibility */
+}
+
+.auth-form input {
+  display: block;
+  width: 100%;
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+}
+
+.auth-form button {
+  width: 50%; /* Make the button full width */
+  padding: 0.5rem;
+  background-color: #007bff;
+  display: block;
+  margin: 0 auto;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 0.5rem; /* Add margin to match input spacing */
+}
+
+.auth-form button:hover {
+  background-color: #0056b3;
+}
+
+.auth-form a {
+  display: block;
+  text-align: center;
+  margin-top: 1rem;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.auth-form a:hover {
+  text-decoration: underline;
+}
+
+.centered-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height to center vertically */
+  background-color: #f0f0f0; /* Optional: Background color for the page */
+}
+
+.search-container {
+  background-color: #fff;
+  border: 2px solid #ddd; /* Border around the search container */
+  border-radius: 15px; /* Rounded corners */
+  padding: 30px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  max-width: 500px; /* Adjust width as needed */
+  width: 100%;
+}
+
+.search-title {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.search-form {
+  width: 100%;
+}
+
+.search-input-container {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 25px;
+  padding: 5px 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.search-input {
+  flex: 1;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  padding: 10px;
+  background: transparent;
+}
+
+.search-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.2s ease;
+}
+
+.search-button:hover {
+  transform: scale(1.1);
+}
+
+.search-icon {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+.results-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+.results-table th, .results-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.results-table th {
+  background-color: #f4f4f4;
+}
+
+.product-image {
+  max-width: 100px;
+  max-height: 100px;
+  object-fit: contain;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.error-message {
+  color: red;
+  font-size: 1.2em;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.error-message button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.error-message button:hover {
+  background-color: #0056b3;
+}
+
+/* Ensure the logs container is centered within its parent */
+.loading-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center horizontally */
+  justify-content: center; /* Center vertically */
+  text-align: center; /* Center text */
+}
+
+/* Style for the logs container */
+.logs-container {
+  width: 80%; /* Adjust width as needed */
+  max-width: 600px; /* Maximum width */
+  height: 300px; /* Fixed height */
+  overflow-y: auto; /* Enable scrolling if logs overflow */
+  border: 1px solid #ccc;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for individual log entries */
+.log-entry {
+  padding: 5px;
+  border-bottom: 1px solid #eee;
+  font-family: monospace;
+}
+
+/* Error message styling */
+.error-message {
+  color: red;
+  font-weight: bold;
+}
