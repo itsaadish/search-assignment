@@ -20,7 +20,7 @@ npm install
 npm start
 ```
 Your frontend server will start at **http://localhost:3000**.
-
+Add your open api key in utils.py file in core folder inside backed
 ### 3️⃣ Backend Setup (Django)
 #### Create and Activate Virtual Environment
 ```bash
